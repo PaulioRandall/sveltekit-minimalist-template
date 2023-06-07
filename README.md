@@ -48,14 +48,14 @@ You'll know if everything is good because you'll get a curated ASCII scene. This
    @~@~~@~@    @~~@~~@    @~~@    @~~@~~~@~~@    @~~@~~~@~~@
 ```
 
-## Commands
+## Full list of commands
 
-- **`npm run fmt`:** Format everything
-- **`npm run clean`:** Delete build folder and caches
-- **`npm run build`:** Build the project
-- **`npm run dev`:** Runs in developer mode
-- **`npm run preview`:** Builds project and starts as if it was in production
-- **`npm run commit`:** Do all checks needed to confirm the project is ready for commit
+- **`npm run fmt`** Format everything
+- **`npm run clean`** Delete build folder and caches
+- **`npm run build`** Build the project
+- **`npm run dev`** Runs in developer mode
+- **`npm run preview`** Builds project and starts as if it was in production
+- **`npm run commit`** Do all checks needed to confirm the project is ready for commit
 
 ## Stuck or curious
 

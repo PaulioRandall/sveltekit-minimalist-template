@@ -78,7 +78,7 @@ When you are ready to commit and push changes use the following command to do a 
 npm run commit
 ```
 
-You'll know if everything is good because you'll get a curated ASCII scene. This can be changed by modifying `./scripts/well-done.txt`:
+You'll know if everything is good because you'll get a curated ASCII scene. This can be changed by modifying `./scripts/youre-ready-to-integrate.txt`:
 
 ```bash
                                        ...oo000o.

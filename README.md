@@ -4,7 +4,7 @@ A minimalist [Sveltekit](https://kit.svelte.dev/) template with only [Prettier](
 
 ## Getting started
 
-#### 1
+### 1
 
 Install Node v18.16.0 using either option:
 
@@ -17,7 +17,7 @@ nvm use 18.16.0
 
 2. Install [Node v18.16.0 directly](https://nodejs.org/en/download/).
 
-#### 2
+### 2
 
 Fork the repo then git clone.
 
@@ -28,7 +28,7 @@ git clone https://github.com/PaulioRandall/sveltekit-minimalist-template.git
 cd sveltekit-minimalist-template
 ```
 
-#### 3 (optional)
+### 3 (optional)
 
 Delete the lock file for good measure:
 
@@ -36,16 +36,16 @@ Delete the lock file for good measure:
 rm -f package-lock.json
 ```
 
-#### 4
+### 4
 
 Update `package.json` with your project name, repository url, and other metadata.
 
-#### 5 (optional)
+### 5 (optional)
 
 Update any dependencies, including the node version if possible. For most teams it's wise to stay on an LTS version and not upgrade until the next LTS version
 is both stable and your dependencies are compatible.
 
-#### 6
+### 6
 
 Install dependencies:
 
@@ -53,7 +53,7 @@ Install dependencies:
 npm i
 ```
 
-#### 7
+### 7
 
 Run in dev mode:
 
@@ -61,11 +61,11 @@ Run in dev mode:
 npm run dev
 ```
 
-#### 8
+### 8
 
 Start modifying at [localhost:3000](http://localhost:3000).
 
-#### 9
+### 9
 
 When you are ready to commit and push changes use the following command to do a full format, build, and test.
 

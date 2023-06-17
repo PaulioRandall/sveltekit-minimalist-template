@@ -4,33 +4,70 @@ A minimalist [Sveltekit](https://kit.svelte.dev/) template with only [Prettier](
 
 ## Getting started
 
-1. Install [Node v18.16.0](https://nodejs.org/en/download/) (I recommend [nvm](https://github.com/nvm-sh/nvm) if you can).
+#### 1
 
-2. Fork then clone the repo:
+Install Node v18.16.0 using either option:
+
+1. Installing [nvm](https://github.com/nvm-sh/nvm) then:
+
+```bash
+nvm install 18.16.0
+nvm use 18.16.0
+```
+
+2. Install [Node v18.16.0 directly](https://nodejs.org/en/download/).
+
+#### 2
+
+Fork the repo then git clone.
+
+Or clone it first to try out:
 
 ```bash
 git clone https://github.com/PaulioRandall/sveltekit-minimalist-template.git
 cd sveltekit-minimalist-template
 ```
 
-3. Update project name in `package.json` with your project name.
+#### 3 (optional)
 
-4. Delete the lock file for good measure:
+Delete the lock file for good measure:
 
 ```bash
 rm -f package-lock.json
 ```
 
-5. Install dependencies and run in dev mode:
+#### 4
+
+Update `package.json` with your project name, repository url, and other metadata.
+
+#### 5 (optional)
+
+Update any dependencies, including the node version if possible. For most teams it's wise to stay on an LTS version and not upgrade until the next LTS version
+is both stable and your dependencies are compatible.
+
+#### 6
+
+Install dependencies:
 
 ```bash
 npm i
+```
+
+#### 7
+
+Run in dev mode:
+
+```bash
 npm run dev
 ```
 
-5. Start programming [localhost:3000](http://localhost:3000)
+#### 8
 
-6. When you are ready to commit and push changes use:
+Start modifying at [localhost:3000](http://localhost:3000).
+
+#### 9
+
+When you are ready to commit and push changes use the following command to do a full format, build, and test.
 
 ```bash
 npm run commit
@@ -51,7 +88,7 @@ You'll know if everything is good because you'll get a curated ASCII scene. This
 ## Full list of commands
 
 - **`npm run fmt`** Format everything
-- **`npm run clean`** Delete build folder and caches
+- **`npm run clean`** Delete build directory
 - **`npm run build`** Build the project
 - **`npm run dev`** Runs in developer mode
 - **`npm run preview`** Builds project and starts as if it was in production
@@ -59,19 +96,9 @@ You'll know if everything is good because you'll get a curated ASCII scene. This
 
 ## Stuck or curious
 
-#### Format code?
-
-```bash
-npm run fmt
-```
+#### Customise formatter?
 
 Modify `.prettierrc.json` to customise styling. Or replace Prettier with your preferred formatting tool.
-
-#### Delete build directory?
-
-```bash
-npm run clean
-```
 
 #### Production build warning
 

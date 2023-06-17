@@ -1,9 +1,9 @@
-<h1 class="page-heading">
+<h1 class="title">
 	<slot />
 </h1>
 
 <style>
-	.page-heading {
+	.title {
 		margin: 2rem 0;
 		padding: 0;
 
@@ -11,6 +11,6 @@
 		font-weight: normal;
 		font-style: italic;
 
-		font-size: var(--font-size-big);
+		font-size: var(--font-size-xl);
 	}
 </style>

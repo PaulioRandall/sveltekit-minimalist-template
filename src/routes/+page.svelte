@@ -1,15 +1,14 @@
 <script>
-	import PageHeading from '$lib/PageHeading.svelte'
+	import Title from '$lib/Title.svelte'
+	import Meta from '$lib/Meta.svelte'
 	import Paragraph from '$lib/Paragraph.svelte'
 
 	const title = 'Minimalist Sveltekit Template'
 </script>
 
-<svelte:head>
-	<title>{title}</title>
-</svelte:head>
+<Meta {title} />
 
 <main>
-	<PageHeading>{title}</PageHeading>
+	<Title>{title}</Title>
 	<Paragraph>A paragraph...</Paragraph>
 </main>

@@ -1,7 +1,7 @@
 :root {
 	/* https://utopia.fyi/ */
-	--font-size-normal: clamp(1.06rem, calc(0.98rem + 0.39vw), 1.38rem);
-	--font-size-big: clamp(2.59rem, calc(2.32rem + 1.34vw), 3.66rem);
+	--font-size-md: clamp(1.06rem, calc(0.98rem + 0.39vw), 1.38rem);
+	--font-size-xl: clamp(2.59rem, calc(2.32rem + 1.34vw), 3.66rem);
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,7 +34,7 @@ body {
 	margin: 0;
 
 	color: var(--text-color);
-	font-size: var(--font-size-normal);
+	font-size: var(--font-size-md);
 	text-size-adjust: 100%;
 	tab-size: 2;
 }

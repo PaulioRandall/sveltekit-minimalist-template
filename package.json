@@ -16,7 +16,7 @@
 		"build": "npm run fmt && vite build",
 		"dev": "npm run fmt && vite dev --port 3000",
 		"preview": "npm run build && vite preview --port 3000",
-		"commit": "npm run build && cat ./scripts/well-done.txt",
+		"commit": "npm run build && cat ./scripts/youre-ready-to-integrate.txt",
 		"================================================================": "",
 		"pipeline-build": "vite build"
 	},

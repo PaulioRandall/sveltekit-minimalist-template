@@ -2,20 +2,9 @@
 
 A minimalist [Sveltekit](https://kit.svelte.dev/) template with only [Prettier](https://prettier.io/) and a few sparse components and pages.
 
-## Full list of commands
-
-| Command | Description |
-| --- | :--- |
-| **`npm run fmt`** | Format everything |
-| **`npm run clean`** | Delete build directory |
-| **`npm run build`** | Build the project |
-| **`npm run dev`** | Runs in developer mode |
-| **`npm run preview`** | Builds project and starts as if it was in production |
-| **`npm run commit`** | Do all checks needed to confirm changes are ready for integration |
-
 ## Getting started
 
-### 1. Install Node v18.16.0 
+### 1. Install Node v18.16.0
 
 By either:
 
@@ -45,7 +34,7 @@ For good measure:
 rm -f package-lock.json
 ```
 
-### 4. Update package metadata 
+### 4. Update package metadata
 
 Update `package.json` with your project name, repository url, and other metadata.
 
@@ -104,4 +93,4 @@ Don't worry if you get a build warning like the one above.
 
 When the time comes to deploy to development and production environments you'll want to research [SvelteKit adapters](https://kit.svelte.dev/docs/adapters).
 
-Since I use Vercel to host my personal website I use [@sveltejs/adapter-vercel](https://www.npmjs.com/package/@sveltejs/adapter-vercel). There are many others and you can write your own. I've written a custom Express adapter before and it's not too difficult; just a little tedious because they are not easy to test.
+I use Vercel to host my personal website so I use [@sveltejs/adapter-vercel](https://www.npmjs.com/package/@sveltejs/adapter-vercel). There are many others and you can write your own. I've written a custom Express adapter before and it's not too difficult; just a little tedious because they're not easy to test.

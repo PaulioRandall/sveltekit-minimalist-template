@@ -11,21 +11,22 @@
 		"url": "https://github.com/PaulioRandall/sveltekit-minimalist-template.git"
 	},
 	"scripts": {
-		"fmt": "npx prettier --loglevel warn --write --plugin-search-dir=. .",
+		"fmt": "npx prettier --plugin prettier-plugin-svelte --log-level warn --write .",
 		"clean": "rm -rf .svelte-kit",
 		"build": "npm run fmt && vite build",
 		"dev": "npm run fmt && vite dev --port 3000",
 		"preview": "npm run build && vite preview --port 3000",
-		"commit": "npm run build && cat ./scripts/youre-ready-to-integrate.txt",
+		"commit": "npm run build && cat ./scripts/ready-to-integrate.txt",
 		"================================================================": "",
 		"pipeline-build": "vite build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "2.1.0",
-		"@sveltejs/kit": "1.20.2",
-		"prettier": "2.8.8",
-		"prettier-plugin-svelte": "2.10.1",
-		"svelte": "3.59.1",
-		"vite": "4.3.9"
+		"@sveltejs/kit": "1.22.6",
+		"p69": "0.2.1",
+		"prettier": "3.0.2",
+		"prettier-plugin-svelte": "3.0.3",
+		"svelte": "4.2.0",
+		"vite": "4.4.9"
 	}
 }

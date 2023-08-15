@@ -18,7 +18,7 @@
 <header id="header" class="header">
 	<nav class="nav">
 		{#each navLinks as { href, text }}
-			<a class="link" {href} sveltekit:noscroll sveltekit:prefetch>
+			<a class="link" {href}>
 				{text}
 			</a>
 		{/each}
@@ -28,7 +28,7 @@
 <style>
 	.header {
 		width: 100%;
-		padding-top: 1rem;
+		padding-top: $space.md(rem);
 	}
 
 	.nav {
@@ -37,15 +37,15 @@
 		justify-content: center;
 		align-items: center;
 
-		gap: 0.6rem;
+		gap: $space.sm(rem);
 
-		padding: 1rem 0;
+		padding: $space.md(rem) 0;
 	}
 
 	@media only screen and (min-width: 500px) {
 		.nav {
 			flex-direction: row;
-			gap: 1rem;
+			gap: $space.md(rem);
 		}
 	}
 </style>

@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: light) {
+	:root {
+		--theme-background: $color.light.base;
+		--theme-text: $color.light.text;
+		--theme-link: $color.light.link;
+		--theme-strong: $color.light.strong;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--theme-background: $color.dark.base;
+		--theme-text: $color.dark.text;
+		--theme-link: $color.dark.link;
+		--theme-strong: $color.dark.strong;
+	}
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	border: 0 solid transparent;
+}
+
+body {
+	background-color: var(--theme-background);
+
+	padding: 0;
+	margin: 0;
+
+	color: var(--theme-text);
+	font-size: $text.size.md;
+	font-family: $text.family.helvetica;
+	text-size-adjust: 100%;
+	tab-size: 2;
+}
+
+main {
+	padding: 0 $space.md;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: var(--theme-link);
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}

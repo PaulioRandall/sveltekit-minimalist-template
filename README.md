@@ -1,6 +1,6 @@
 # Sveltekit Minimalist Template
 
-A minimalist [Sveltekit](https://kit.svelte.dev/) template with only [Prettier](https://prettier.io/) and a few sparse components and pages.
+A minimalist [Sveltekit](https://kit.svelte.dev/) template with [Prettier](https://prettier.io/), [P69](https://github.com/PaulioRandall/p69), and a few sparse components and pages.
 
 ## Getting started
 

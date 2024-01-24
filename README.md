@@ -7,18 +7,18 @@ A minimalist [Sveltekit](https://kit.svelte.dev/) template with only:
 
 ## Getting started
 
-### 1. Install Node v18.16.0
+### 1. Install Node v18+
 
 By either:
 
 1. Installing [nvm](https://github.com/nvm-sh/nvm) then:
 
 ```bash
-nvm install 18.16.0
-nvm use 18.16.0
+nvm install 18
+nvm use 18
 ```
 
-2. Installing [Node v18.16.0 directly](https://nodejs.org/en/download/).
+2. Installing [Node v18 directly](https://nodejs.org/en/download/).
 
 ### 2. Fork and clone
 

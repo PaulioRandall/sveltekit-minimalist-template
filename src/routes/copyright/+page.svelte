@@ -1,12 +1,12 @@
 <script>
-	import Title from '$lib/Title.svelte'
-	import Paragraph from '$lib/Paragraph.svelte'
-	import Meta from '$lib/Meta.svelte'
+	import PageMetadata from '$lib/PageMetadata.svelte'
 </script>
 
-<Meta title="Copyright" />
+<PageMetadata title="Copyright" />
 
 <main>
-	<Title>Copyright</Title>
-	<Paragraph>This is an empty page!</Paragraph>
+	<h1>Copyright</h1>
+	<section>
+		<p>Empty page!</p>
+	</section>
 </main>

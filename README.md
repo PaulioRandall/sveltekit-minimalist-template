@@ -1,6 +1,9 @@
 # Sveltekit Minimalist Template
 
-A minimalist [Sveltekit](https://kit.svelte.dev/) template with [Prettier](https://prettier.io/), [P69](https://github.com/PaulioRandall/p69), and a few sparse components and pages.
+A minimalist [Sveltekit](https://kit.svelte.dev/) template with only:
+
+- [P69](https://github.com/PaulioRandall/p69) CSS Compile Time Tokens
+- [Prettier](https://prettier.io/) Formatter
 
 ## Getting started
 
@@ -67,16 +70,16 @@ When you are ready to commit and push changes use the following command to do a 
 npm run commit
 ```
 
-You'll know if everything is good because you'll get a curated ASCII scene. This can be changed by modifying `./scripts/youre-ready-to-integrate.txt`:
+You'll know if everything is good because you'll get a curated ASCII scene. This can be changed by modifying `./scripts/youre-ready-to-ship.txt`:
 
 ```bash
-                                       ...oo000o.
-                                                 00oo.
-  __________  _________  ______  _____________        oo.
-  |        |  |       |  |    |  |           |  _____    o
-  | You're |  | Ready |  | To |  | Integrate |  |__D|____][_
-  |________|%%|_______|%%|____|%%|___________|%%|_~~~~++++~_}
-   @~@~~@~@    @~~@~~@    @~~@    @~~@~~~@~~@    @~~@~~~@~~@
+                                                ...oo000o.
+                                                          00oo.
+___ _________  _________  ______  __________  _________        oo.
+ -- |       |  |       |  |    |  |        |  |       |  _____    o
+___ |       |  | Ready |  | To |  |  Ship  |  |       |  |__D|____][_
+ -- |_______|%%|_______|%%|____|%%|________|%%|_______|%%|_~~~~++++~_}
+     @~~@~~@    @~~@~~@    @~~@    @~@~~@~@    @~~@~~@    @~~@~~~@~~@
 ```
 
 ## Customise formatting

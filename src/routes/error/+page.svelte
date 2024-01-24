@@ -1,1 +1,3 @@
-<p>If you can see me then something went wrong!</p>
+<main>
+	<p>If you can see me then something went wrong!</p>
+</main>

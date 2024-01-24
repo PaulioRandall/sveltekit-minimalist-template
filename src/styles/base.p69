@@ -1,0 +1,99 @@
+/* prettier-ignore */
+$theme.schemes
+
+/* prettier-ignore */
+$font.schemes
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	border: 0 solid transparent;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+
+	color: $font.color.normal;
+	font-size: $font.size.md;
+	font-family: $font.family.nunito;
+	background-color: $theme.color.primary;
+
+	text-size-adjust: 100%;
+	tab-size: 2;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0 auto $space.xxxl.rem;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 100vw;
+	max-width: 100vw;
+	padding: 0 $space.md.rem; 
+	margin: $space.md.em auto 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	margin-top: $space.md.em;
+	padding: 0;
+
+	max-width: 100%;
+
+	font-weight: normal;
+	color: $font.color.strong;
+}
+
+h1, .g-h1 {
+	margin: $space.lg.rem 0;
+	padding: 0;
+
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	font-size: $font.size.2xl;
+}
+
+h2, .g-h2 {
+	margin-top: 4rem;
+	font-size: $font.size.lg;
+}
+
+h3, .g-h3 {
+	margin-top: 3rem;
+	font-size: $font.size.md;
+}
+
+p {
+	margin-top: $space.md.em;
+	padding: 0;
+
+	max-width: $theme.width.md.rem;
+
+	font-size: $font.size.md;
+	line-height: 1.5em;
+}
+
+strong {
+	font-weight: normal;
+	color: $font.color.strong;
+}
+
+a {
+	color: $font.color.link;
+	text-decoration: none;
+}
+
+a:hover {
+	text-underline-offset: 0.3rem;
+	text-decoration: underline;
+}

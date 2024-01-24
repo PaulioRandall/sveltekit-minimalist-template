@@ -31,7 +31,7 @@ body {
 
 	color: var(--theme-text);
 	font-size: clamp(1.06rem, calc(0.98rem + 0.39vw), 1.38rem);
-	font-family: Helvetica,Arial,Verdana;
+	font-family: Helvetica, Arial, Verdana;
 	text-size-adjust: 100%;
 	tab-size: 2;
 }
@@ -52,4 +52,3 @@ a:hover {
 	cursor: pointer;
 	text-decoration: underline;
 }
-

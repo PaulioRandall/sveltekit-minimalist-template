@@ -1,13 +1,13 @@
 import adapter from '@sveltejs/adapter-auto'
 import path from 'path'
 
-import p69, { defaultMimeTypes } from 'p69/svelte'
-import styles from './src/styles.js'
+import { watchP69, filesP69, svelteP69 } from 'p69'
+import tokens from './src/styles/index.js'
 
-const p69_options = {
-	root: './src',
-	amalgamate: './src/routes/styles.css',
-	mimeTypes: [undefined, ...defaultMimeTypes],
+if (process.env.NODE_ENV === 'development') {
+	watchP69(tokens)
+} else {
+	await filesP69(tokens)
 }
 
 export default {
@@ -17,5 +17,5 @@ export default {
 			$routes: path.resolve('./src/routes'),
 		},
 	},
-	preprocess: [p69(styles, p69_options)],
+	preprocess: [svelteP69(tokens)],
 }

@@ -1,16 +1,20 @@
 <script>
 	import { page } from '$app/stores'
 
-	import Title from '$lib/Title.svelte'
-	import Paragraph from '$lib/Paragraph.svelte'
-	import Meta from '$lib/Meta.svelte'
+	import PageMetadata from '$lib/PageMetadata.svelte'
 </script>
 
-<Meta title="Error: {$page.status}" />
+<PageMetadata title="Error: {$page.status}" />
 
 <main>
-	<Title>{$page.status}</Title>
-	<Paragraph>
+	<h1>{$page.status}</h1>
+	<p class="center">
 		{$page.error.message}
-	</Paragraph>
+	</p>
 </main>
+
+<style>
+	.center {
+		text-align: center;
+	}
+</style>

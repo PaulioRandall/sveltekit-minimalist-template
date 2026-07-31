@@ -16,6 +16,6 @@
 	}
 
 	.side-element {
-		width: 6ch; 
+		width: 6ch;
 	}
 </style>

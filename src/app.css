@@ -5,33 +5,33 @@
 
 :root {
 	--color-ice_cream: #fafafa;
-	--color-ice_cream-raw: 250,250,250;
+	--color-ice_cream-raw: 250, 250, 250;
 	--color-very_light_sky_blue: #e7f5ff;
-	--color-very_light_sky_blue-raw: 231,245,255;
+	--color-very_light_sky_blue-raw: 231, 245, 255;
 	--color-light_sky_purple: #d2d2e6;
-	--color-light_sky_purple-raw: 210,210,230;
+	--color-light_sky_purple-raw: 210, 210, 230;
 	--color-rosy_red: #ff9191;
-	--color-rosy_red-raw: 255,145,145;
+	--color-rosy_red-raw: 255, 145, 145;
 	--color-burly_wood: #deb887;
-	--color-burly_wood-raw: 222,184,135;
+	--color-burly_wood-raw: 222, 184, 135;
 	--color-burly_wood_50: #deb887;
-	--color-burly_wood_50-raw: 222,184,135;
+	--color-burly_wood_50-raw: 222, 184, 135;
 	--color-jet_blue: #1e55af;
-	--color-jet_blue-raw: 30,85,175;
+	--color-jet_blue-raw: 30, 85, 175;
 	--color-jet_blue_50: #1e55af;
-	--color-jet_blue_50-raw: 30,85,175;
+	--color-jet_blue_50-raw: 30, 85, 175;
 	--color-blood_red: #731010;
-	--color-blood_red-raw: 115,16,16;
+	--color-blood_red-raw: 115, 16, 16;
 	--color-blood_red_50: #731010;
-	--color-blood_red_50-raw: 115,16,16;
+	--color-blood_red_50-raw: 115, 16, 16;
 	--color-dark_grey: #1d1d20;
-	--color-dark_grey-raw: 29,29,32;
+	--color-dark_grey-raw: 29, 29, 32;
 	--color-dark_navy: #050a23;
-	--color-dark_navy-raw: 5,10,35;
+	--color-dark_navy-raw: 5, 10, 35;
 	--color-dark_navy_grey: #050a3c;
-	--color-dark_navy_grey-raw: 5,10,60;
+	--color-dark_navy_grey-raw: 5, 10, 60;
 	--color-very_dark_grey: #121212;
-	--color-very_dark_grey-raw: 18,18,18;
+	--color-very_dark_grey-raw: 18, 18, 18;
 	--theme-bg: #fafafa;
 	--theme-text: #121212;
 	--theme-strong: #1e55af;
@@ -40,16 +40,16 @@
 	--cotheme-text: #fafafa;
 	--cotheme-strong: #deb887;
 	--cotheme-border: #731010;
-	--font-size-xs: clamp(0.60rem, calc(0.58rem + 0.09vw), 0.67rem);
+	--font-size-xs: clamp(0.6rem, calc(0.58rem + 0.09vw), 0.67rem);
 	--font-size-sm: clamp(0.75rem, calc(0.71rem + 0.18vw), 0.89rem);
 	--font-size-md: clamp(0.94rem, calc(0.88rem + 0.31vw), 1.19rem);
 	--font-size-lg: clamp(1.17rem, calc(1.07rem + 0.51vw), 1.58rem);
-	--font-size-xl: clamp(1.47rem, calc(1.30rem + 0.81vw), 2.11rem);
+	--font-size-xl: clamp(1.47rem, calc(1.3rem + 0.81vw), 2.11rem);
 	--font-size-2xl: clamp(1.83rem, calc(1.59rem + 1.23vw), 2.81rem);
 	--font-size-3xl: clamp(2.29rem, calc(1.92rem + 1.83vw), 3.75rem);
-	--font-size-4xl: clamp(2.86rem, calc(2.33rem + 2.67vw), 5.00rem);
-	--font-size-5xl: clamp(3.58rem, calc(2.80rem + 3.86vw), 6.66rem);
-	--font-family-nunito: Nunito,sans-serif,Helvetica,Verdana;
+	--font-size-4xl: clamp(2.86rem, calc(2.33rem + 2.67vw), 5rem);
+	--font-size-5xl: clamp(3.58rem, calc(2.8rem + 3.86vw), 6.66rem);
+	--font-family-nunito: Nunito, sans-serif, Helvetica, Verdana;
 	--width-min: 320px;
 	--width-xs: 600px;
 	--width-sm: 720px;
@@ -64,7 +64,7 @@
 	--space-lg: 4rem;
 	--space-lg-px: 64px;
 	--space-xl: 8rem;
-	--space-xl-px: 128px;;
+	--space-xl-px: 128px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -76,7 +76,7 @@
 		--cotheme-bg: #121212;
 		--cotheme-text: #fafafa;
 		--cotheme-strong: #deb887;
-		--cotheme-border: #731010;;
+		--cotheme-border: #731010;
 	}
 }
 
@@ -111,7 +111,9 @@ section {
 	margin: var(--space-md) auto 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	margin: 0;
 	padding: 0;
 
@@ -173,4 +175,3 @@ a:hover {
 	color: var(--cotheme-text);
 	background-color: var(--cotheme-bg);
 }
-

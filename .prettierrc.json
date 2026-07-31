@@ -9,5 +9,6 @@
 	"bracketSameLine": true,
 	"arrowParens": "always",
 	"endOfLine": "lf",
-	"embeddedLanguageFormatting": "auto"
+	"embeddedLanguageFormatting": "auto",
+	"plugins": ["prettier-plugin-svelte"]
 }

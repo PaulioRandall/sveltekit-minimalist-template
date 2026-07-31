@@ -3,29 +3,27 @@
 	"version": "0.1.0",
 	"type": "module",
 	"engines": {
-		"node": ">=18"
+		"node": ">=24"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/PaulioRandall/sveltekit-minimalist-template.git"
+		"url": "git+https://github.com/PaulioRandall/sveltekit-minimalist-template.git"
 	},
 	"scripts": {
+		"update": "npx npm-check-updates -u && npm i",
 		"clean": "rm -rf .svelte-kit",
 		"fmt": "prettier --log-level warn --write .",
 		"build": "npm run fmt && vite build",
 		"dev": "npm run fmt && vite dev --port 3000",
 		"preview": "npm run build && vite preview --port 4000",
-		"commit": "npm run build && cat ./ready-to-ship.txt",
-		"================================================================": "",
-		"auto-build": "vite build"
+		"audit": "npm run build && cat ./ready-to-integrate.txt"
 	},
 	"devDependencies": {
-		"@paulio/p69-svelte": "1.0.0-rc-3",
-		"@paulio/p69-util": "1.0.0-rc-2",
-		"@sveltejs/adapter-auto": "3.3.1",
-		"@sveltejs/kit": "2.15.2",
-		"prettier": "3.4.2",
-		"svelte": "5.17.1",
-		"vite": "6.0.7"
+		"@sveltejs/adapter-auto": "7.0.1",
+		"@sveltejs/kit": "2.70.2",
+		"prettier": "3.9.6",
+		"prettier-plugin-svelte": "4.1.1",
+		"svelte": "5.56.8",
+		"vite": "8.2.0"
 	}
 }

@@ -1,6 +1,4 @@
-<footer class="g-cotheme">
-	&lt;footer&gt;
-</footer>
+<footer class="g-cotheme">&lt;footer&gt;</footer>
 
 <style>
 	footer {
